@@ -10,12 +10,7 @@ Sample website with plenty of files for demos
 
 ## How to contribute
 
-welcome eveyr one to contribute. good to see all. modified one
-
-super thank you
-
-
-sexy baby hahaha
+Please fork this repo and issue pull request for review
 
 ### Copyright
 
