@@ -1,0 +1,506 @@
+ 162  rm -rf .git
+  163  git status
+  164  cd ..
+  165  rm -rf web-project/
+  166  git status
+  167  cd github-demo/
+  168  git status
+  169  cat .bash_profile
+  170  cd ..
+  171  dir
+  172  unzip initializr-verekia-4.0.zip
+  173  cd initializr
+  174  dir
+  175  ls -ltrha
+  176  id -a
+  177  cat /etc/group
+  178  ls
+  179  cd ..
+  180  mv initializr web-project
+  181  cd web-project
+  182  dir
+  183  git status
+  184  git init
+  185  ls -lal
+  186  git status
+  187  git add .
+  188  git status
+  189  git commit -m "Web-project commit, inline"
+  190  git status
+  191  git status
+  192  rm -rf .git/
+  193  git status
+  194  cd ..
+  195  rm -rf web-project/
+  196  ls
+  197  git clone https://github.com/Jeyaprakash-dr/starter-web.git
+  198  ls
+  199  cd starter-web/
+  200  dir
+  201  cat README.md
+  202  cat robots.txt
+  203  cat index.html
+  204  clear
+  205  ls -ltrha
+  206  cls
+  207  ls
+  208  ls -al
+  209  git status
+  210  cd ..
+  211  ls -ltrh
+  212  cd starter-web/
+  213  ls
+  214  env
+  215  clear
+  216  git status
+  217  npp hipster.txt
+  218  ls
+  219  git status
+  220  git add hipster.txt
+  221  git status
+  222  git commit -m "Inserting new file hipster.txt"
+  223  git stats
+  224  git status
+  225  git pull origin master
+  226  git branch -a
+  227  git push origin master
+  228  ip a
+  229  ifconfig
+  230  git status
+  231  npp ~/.gitconfig
+  232  cd ..
+  233  dir
+  234  cd starter-web/
+  235  dir
+  236  git status
+  237  npp hipster.txt
+  238  git status
+  239  git commit -a  -m "second coomit, adding more ipsum test"
+  240  git status
+  241  git ls-files
+  242  echo `git ls-files` >>  newfile.txt
+  243  ls -ltrha
+  244  cat newfile.txt
+  245  git status
+  246  git ls-files
+  247  git add newfile.txt
+  248  git status
+  249  git ls-files
+  250  git status
+  251  npp hipster.txt
+  252  git status
+  253  git commit -m "adding new file "
+  254  git status
+  255  git add hipster.txt
+  256  git status
+  257  npp hipster.txt
+  258  git status
+  259  git add hipster.txt
+  260  git status
+  261  git commit -m "More ipsum for hipsters"
+  262  git status
+  263  git status
+  264  mkdir -p level1/level2/level3/level5
+  265  ls
+  266  cd level1/
+  267  echo "Lyft deep v man bun vegan shoreditch pok pok. Selfies tilde DIY semiotics. Authentic kickstarter four loko skateboard, deep v migas 90's. Literally sriracha street art truffaut ethical chia hoodie pug bicycle rights man bun four dollar toast gastropub bushwick. Aesthetic neutra forage occupy coloring book tattooed. Hexagon hammock 8-bit waistcoat." >> level1-file.txt
+  268  cat level1-file.txt
+  269  cd level2
+  270  echo "Hell of copper mug chillwave street art truffaut kogi everyday carry asymmetrical normcore vaporware four dollar toast venmo swag tbh forage. +1 blog yuccie fam blue bottle cardigan. Copper mug salvia leggings photo booth succulents artisan poutine edison bulb you probably haven't heard of them selfies. Fashion axe pabst artisan readymade humblebrag shaman, offal kitsch man braid ugh tumeric gluten-free butcher deep v. Meggings direct trade bicycle rights ramps bushwick af, mustache raclette. Single-origin coffee heirloom tote bag actually. Sustainable mustache salvia four loko knausgaard keytar, squid hot chicken 3 wolf moon butcher scenester normcore" >> level2-file.txt
+  271  ls
+  272  cd level3
+  273  echo " Wolf flannel direct trade seitan, letterpress single-origin coffee poke hammock hell of tousled forage. Gochujang hoodie umami tattooed you probably haven't heard of them chartreuse freegan hashtag helvetica. Enamel pin art party synth bicycle rights, biodiesel iceland meggings slow-carb PBR&B chia air plant bushwick. Bicycle rights prism hot chicken copper mug, church-key tbh health goth butcher poutine jean shorts. Viral readymade single-origin coffee pour-over dreamcatcher microdosing asymmetrical 8-bit semiotics enamel pin fashion axe man braid selfies." >> level3-file.txt
+  274  cd level5/
+  275  echo "Cronut austin vinyl selfies, photo booth hammock squid listicle green juice affogato next level deep v. Pitchfork swag normcore put a bird on it single-origin coffee PBR&B salvia knausgaard bicycle rights banjo neutra. Farm-to-table viral small batch cardigan. Vinyl trust fund +1, bicycle rights cronut air plant lo-fi vexillologist affogato tilde letterpress whatever." >> level5-file.txt
+  276  cd ../../../..
+  277  git status
+  278  git add .
+  279  git status
+  280  git ls-file
+  281  git ls-files
+  282  git commit -m "adding several file"
+  283  git status
+  284  git status
+  285  cd level1
+  286  ls
+  287  npp level1-file.txt
+  288  git status
+  289  git add level1-file.txt
+  290  git status
+  291  npp level1-file.txt
+  292  clear
+  293  git status
+  294  git reset HEAD level1-file.txt
+  295  git status
+  296  npp level1-file.txt
+  297  git status
+  298  git checkout -- level1-file.txt
+  299  git status
+  300  npp level1-file.txt
+  301   cd level2/level3
+  302  pwd
+  303  dir
+  304  rm -rf level5
+  305  git status
+  306  git checkout -- level5/level5-file.txt
+  307  ls
+  308  git mv level3-file.txt level3.txt
+  309  ls
+  310  git status
+  311  git commit -m "renaming level3 file"
+  312  git status
+  313  ls
+  314  cd ..
+  315  clear
+  316  ls
+  317  pwd
+  318  mv level2-file.txt level2.txt
+  319  git status
+  320  git add -A
+  321  git status
+  322  git commit -m "renamed level2 file"
+  323  git status
+  324  ls
+  325  ls
+  326  git mv level2.txt 2.txt
+  327  git status
+  328  git mv 2.txt level2.txt
+  329  ls
+  330  git status
+  331  clear
+  332  ;s =;traj
+  333  ls -ltrh
+  334  git mv level2.txt level3/level
+  335  ls
+  336  cd level3
+  337  ls
+  338  git status
+  339  git comit -m "movinf gile "
+  340  git status
+  341  git commit -m "levle2"
+  342  git status
+  343  mv level ../level2/level2.txt
+  344  mv level ../level2.txt
+  345  cd ..
+  346  ls
+  347  git status
+  348  git add -A
+  349  git status
+  350  git commit "file restored"
+  351  git commit -m "file restored"
+  352  git status
+  353  cd ..
+  354  dir
+  355  explorer.exe
+  356  cd /c/class/projects/
+  357  cd starter-web/
+  358  git status
+  359  git status
+  360  git add level1/level11.txt level1/level1
+  361  git add level1/level11.txt
+  362  git status
+  363  cd level1
+  364  dir
+  365  git status
+  366  git add -u
+  367  git status
+  368  git commit -m "renaming level1"
+  369  git status
+  370  history
+  371  cd ..
+  372  dir
+  373  git status
+  374  npp doomed.txt
+  375  ls
+  376  git status
+  377  git rm doomed.txt
+  378  rm doomed.txt
+  379  ls
+  380  git status
+  381  git ls-files
+  382  cat newfile.txt
+  383  git rm newfile.txt
+  384  git status
+  385  git ls-files
+  386  git status
+  387  git commit -m "deleting file"
+  388  git stauts
+  389  git status
+  390  clear
+  391  ls
+  392  git ls-files
+  393  git rm hipster.txt
+  394  git status
+  395  ls
+  396  git reset HEAD hipster.txt
+  397  ls
+  398  git status
+  399  git checkout -- hipster.txt
+  400  ks
+  401  ls
+  402  git status
+  403  rm hipster.txt
+  404  git status
+  405  git add -A
+  406  git status
+  407  git commit -m "deleted"
+  408  git status
+  409  ls
+  410  rm -rf level1/
+  411  rm -rf level1
+  412  rm -rf level1
+  413  lsof level1/
+  414  ps -ef | grep -i level1
+  415  ps -ef |more
+  416  exit
+  417  git status
+  418  cd /c/class/projects
+  419  dir
+  420  cd starter-web/
+  421  dir
+  422  rm -rf level1
+  423  cd level1/
+  424  dir
+  425  ls
+  426  ls -ltra
+  427  git status
+  428  git add -A
+  429  git status
+  430  cd ..
+  431  rm -rf level1
+  432  rm -r level1
+  433  git status
+  434  git commit -m "deleted level1"
+  435  git status
+  436  rm -rf level1/
+  437  git history
+  438  git help log
+  439  git status
+  440  clear
+  441  git log
+  442  git log --abbrev-commit
+  443  git log --oneline --graph --decorate
+  444  git log da831ba...2f4fe7f
+  445  git log --since="3 days ago"
+  446  git clear
+  447  clear
+  448  gls
+  449  ls
+  450  git log -- humans.txt
+  451  clear
+  452  git log --follow -- level1
+  453  clear
+  454  git show 59f1dc1b66521a28eff8a6afdb8573368f018118
+  455  git alias help
+  456  git --help
+  457  git status
+  458  git log --all --graph --decorate --oneline
+  459  alias
+  460  git hist
+  461  git config --global alias.hist "log --all --graph --decorate --oneline"
+  462  git hist
+  463  npp ~/.gitconfig
+  464  git hist
+  465  npp ~/.gitconfig
+  466  git hist
+  467  git status
+  468  ls -al
+  469  npp .gitignore
+  470  ls -al
+  471  git status
+  472  git add .gitignore
+  473  git status
+  474  git commit -m "git ignore"
+  475  git status
+  476  ls
+  477  npp access.log
+  478  ls
+  479  git status
+  480  npp .gitignore
+  481  git status
+  482  mkdir log
+  483  mv access.log log
+  484  ls log
+  485  cd log
+  486  cp access.log access.2021-11-22
+  487  git status
+  488  cd ..
+  489  git status
+  490  npp .gitignore
+  491  git status
+  492  git commit -am "exluding log ifle directory"
+  493  git status
+  494  ls
+  495  git status
+  496  git hist
+  497  git pull origin master
+  498  git hist
+  499  git push origin master
+  500  p4merge
+  501  p4merge
+  502  git config --global --list
+  503  git config --global merge.tool p4merge
+  504  git config --global mergetool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"
+  505  git config --global mergetool.prompt false
+  506  git config --global diff.tool p4merge
+  507  git config --global difftool.p4merge.path "C:/Program Files/Perforce/p4merge.exe"
+  508  git config --global difftool.prompt false
+  509  git config --global --list
+  510  git config --global -e
+  511  cd /c/Class/projects/starter-web/
+  512  dir
+  513  cat README.md
+  514  npp README.md
+  515  git status
+  516  git commit -m "redmed"
+  517  git status
+  518  git add .
+  519  git status
+  520  git commit -m "read me file"
+  521  git status
+  522  git push origin master
+  523  git status
+  524  git his
+  525  git hist
+  526  npp README.md
+  527  git status
+  528  git commit -am "adding decr"
+  529  git status
+  530  npp README.md
+  531  git commit -am "adding intro"
+  532  git status
+  533  npp README.md
+  534  git status
+  535  npp README.md
+  536  git status
+  537  git add README.md
+  538  git status
+  539  npp README.md
+  540  git status
+  541  git diff
+  542  git difftool
+  543  git status
+  544  git diff HEAD
+  545  git difftool
+  546  git difftool HEAD
+  547  git status
+  548  git diff --staged HEAD
+  549  git difftool --staged HEAD
+  550  ls
+  551  npp simple.html
+  552  git status
+  553  git diff
+  554  git diff -- README.md
+  555  git difftool -- README.md
+  556  git status
+  557  git log --online
+  558  git log --oneline
+  559  git diff a4c4f9e 3ef786c
+  560  git diff HEAD HEAD^
+  561  git difftool HEAD HEAD^
+  562  git log --oneline
+  563  git diff 240c98d b60a355
+  564  git difftool 240c98d b60a355
+  565  git diff master origin/master
+  566  git branch -a
+  567  git difftool master origin/master
+  568  ls
+  569  git status
+  570  git add .
+  571  git status
+  572  git commit -m "changes commited"
+  573  git status
+  574  git push origin master
+  575  git status
+  576  git branch -a
+  577  git branch mynewbranch
+  578  git branch -a
+  579  git checkout mynewbranch
+  580  git status
+  581  git branch -a
+  582  git hist
+  583  git checkout master
+  584  git branch -a
+  585  git branch -m mynewbranch newbranch
+  586  git branch -a
+  587  git branch -d newbranch
+  588  git branch -a
+  589  git status
+  590  git branch -a
+  591  git branch
+  592  git checkout -b title-change
+  593  git branch
+  594  npp simple.html
+  595  git status
+  596  git commit -am "changing title of html file"
+  597  git log --oneline
+  598  git checkout master
+  599  git diff master title-branch
+  600  git diff master title-change
+  601  git difftool master title-change
+  602  git merge title-change
+  603  git hist
+  604  git branch -a
+  605  git branch -d title-change
+  606  git branch
+  607  git hist
+  608  git config --global --list
+  609  git merger
+  610  git --help
+  611  git help -g
+  612  git help merge -g
+  613  git help merge
+  614  git status
+  615  git branch
+  616  git checkout -b add-copyright
+  617  git branch
+  618  npp simple.html
+  619  git status
+  620  git commit -am "adding copy right "
+  621  npp README.md
+  622  git commit -am "commit message adding copy right to readme"
+  623  git status
+  624  git log --online
+  625  git hist
+  626  git checkout master
+  627  git merge add-copyright --no-ff
+  628  git log
+  629  git hist
+  630  git branch
+  631  git branch -d add-copyright
+  632  git hist
+  633  git status
+  634  git branch
+  635  git checkout -b simple-changes
+  636  git status
+  637  ll
+  638  npp humans.txt
+  639  git status
+  640  git commit -am "adding team member to humans.txt"
+  641  git checkout master
+  642  ls
+  643  npp README.md
+  644  git commit -am "adding instrucition on how to contribute
+
+
+
+  645  git commit -am "adding instrucition on how to contribute"
+  646  git hist
+  647  git branch
+  648  git merger simple-changes -m "merget will result in commit"
+  649  git merge simple-changes -m "merget will result in commit"
+  650  git hist
+  651  git branch
+  652  git branch -d simple-changes
+  653  git status
+  654  git hist
+  655  cat humans.txt
+  656  cat README.md
+  657  git status
+  658  echo `history` >> history.txt
+  659  more history.txt
+  660  npp history.txt
+  661  history
+
+Jeyaprakash_Dasu_raj@W107Y4NXY2 MINGW64 /c/Class/projects/starter-web (master)
+$
