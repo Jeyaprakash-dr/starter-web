@@ -7,7 +7,7 @@ This is a sample web project for every one
 ## Purpose
 
 Sample website with plenty of files for demos
-Super for me, and adding more text, for rebasing example
+Super for me, and adding more text, for rebasing example. Nice rebase really helped for my feature branch 
 ## How to contribute
 
 Please fork this repo and issue pull request for review
