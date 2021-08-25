@@ -8,7 +8,7 @@ sdspwpc1app01
 
 # THANKS
 
-    <name>
+Thanks to all my Gurus
 
 # TECHNOLOGY COLOPHON
 
