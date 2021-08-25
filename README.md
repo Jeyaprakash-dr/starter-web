@@ -9,3 +9,5 @@ This is a sample web project for every one
 Sample website with plenty of files for demos
 
 ## How to contribute
+
+welcome eveyr one to contribute. good to see all
