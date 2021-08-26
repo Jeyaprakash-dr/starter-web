@@ -14,4 +14,4 @@ Please fork this repo and issue pull request for review
 Super cool baby, i like it
 ### Copyright
 
-Copyright to Jeyaprakash Dasu Rajagopal 2021
+Copyright to Jeyaprakash Dasu Rajagopal 2021. All rights reserved
