@@ -1,5 +1,6 @@
 # Starter Web Repo
 
+Welcome to web pro. Emergency fix after stash
 This repository is for showing how Git and GitHub work
 
 ## Introduction
