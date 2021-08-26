@@ -14,3 +14,4 @@ Thanks to all my Gurus. Please leave a review if you like my  courses
 
     HTML5, CSS3
     jQuery, Modernizr
+LInux, GIT, 
